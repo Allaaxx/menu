@@ -14,7 +14,11 @@ html{
     margin: auto;
 }
 
-
+#icone{
+    margin-right: 12vw;
+    width: 3vw;
+    height: 3vw;
+}
 
 .flex{
     display: flex;
@@ -32,7 +36,7 @@ header{
 }
 
 header.rolagem{
-    background-color: #000;
+    background-color: #000000ad;
     opacity: 85%;
     padding: 20px 4%;
     transition: 1s;
@@ -53,11 +57,12 @@ header a img{
 
 header ul{
     list-style-type: none;
+    width: 50vw;
 }
 
 header ul li{
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 10px;
 }
 
 header ul li a{
@@ -131,6 +136,7 @@ nav ul li a:hover{
     color: #fff;
     cursor: pointer;
     transition: .1s;
+    margin-right: 1vw;
 }
 .btn-contato button:hover{
     background-color: #fff;
@@ -150,3 +156,5 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
 }
+
+   
